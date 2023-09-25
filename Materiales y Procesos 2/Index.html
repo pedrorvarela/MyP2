@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href=".estilos.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ESPN +</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+
+  <body class="body">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">ESPN +</a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Live</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Re-Watch</a> 
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sports/Leagues</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Documentaries</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+
+            <button type="button" class="btn btn-light btn btn btn-primary btn-sm me-2 w-25">Log In</button>
+
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+
+            <button class="btn btn-outline-danger" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExample" class="carousel slide p-3 mb-2 p-3 mb-2 bg-black">
+      <div class="carousel-inner w-100">
+        <div id="DivF1" class="carousel-item active">
+          <h1 class="F1">Formula 1</h1>
+          <p class="GP"> GP - Japan </p>
+          <p class="Quali"> Qualifying #1</p>
+          <div class="DivLive">
+            <h1 class="Live">LIVE</h1>
+          </div>
+        </div>
+        <div id="DivLibertadores" class="carousel-item">
+          <h1 class="Libertadores2018">Libertadores 2018</h1>
+          <p class="GP"> Final - 9/12/2018</p>
+          <p class="Quali"> River 3 - 1 Boca</p>
+          <div class="DivLive">
+            <h1 class="Live">LIVE</h1>
+          </div>
+        </div>
+        <div id="DivUsOpen" class="carousel-item">
+          <h1 class="UsOpen">US Open</h1>
+          <p class="GP"> Ronda 16 - 8tavos de final</p>
+          <p class="Quali"> Carlos Alcaraz - Novak Djokovic</p>
+          <div class="DivLive">
+            <h1 class="Live">LIVE</h1>
+          </div>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  <div class="ContenedorEnVivo">
+    <div class="TituloEnVivo">
+      <h1 class="EnVivo">En vivo, todos los deportes</h1>
+    </div>
+    <div class="DivLive2">
+      <h1 class="Live">LIVE</h1>
+    </div>
+  </div>
+
+    <div class="card-group">
+      <div class="card">
+        <img src="./IMAGENES/foto manchester.png" class="card-img-top" alt="...">
+        <div class="card-body text-light bg-black">
+          <h5 class="card-title">Burnley vs. Manchester United</h5>
+          <p class="card-text">English Premier League.</p>
+          <p class="card-text">ESPN on STAR+</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./IMAGENES/foto sudafrica.png" class="card-img-top" alt="...">
+        <div class="card-body text-light bg-black">
+          <h5 class="card-title"> Sudafrica vs. Irlanda - Fecha #3 </h5>
+          <p class="card-text">Rugby World Cup.</p>
+          <p class="card-text">ESPN Scrum </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./IMAGENES/foto valencia.png" class="card-img-top" alt="...">
+        <div class="card-body text-light bg-black"> 
+          <h5 class="card-title">Almeria vs. Valencia</h5>
+          <p class="card-text">Spanish LALIGA.</p>
+          <p class="card-text">ESPN on STAR+</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="TituloLoMasVisto">
+      <h1 class="LoMasVisto">Lo más visto ultimamente</h1>
+    </div>
+
+    <div class="card-group">
+      <div class="card">
+        <img src="./IMAGENES/foro formula 1 posta.png" class="card-img-top" alt="...">
+        <div class="card-body text-light bg-black">
+          <h5 class="card-title">Replay - Formula 1</h5>
+          <p class="card-text">Grand Prix Japan.</p>
+          <p class="card-text">September 23, 2023.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./IMAGENES/foto pumas posta.png" class="card-img-top" alt="...">
+        <div class="card-body text-light bg-black">
+          <h5 class="card-title">Los Pumas vs. Samoa</h5>
+          <p class="card-text">Rugby World Cup.</p>
+          <p class="card-text">September 23, 2023.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./IMAGENES/foto manchester city posta.png" class="card-img-top" alt="...">
+        <div class="card-body text-light bg-black">
+          <h5 class="card-title">Manchester City vs. Forest</h5>
+          <p class="card-text">English Premier League.</p>
+          <p class="card-text">September 23, 2023.</p>
+        </div>
+      </div>
+    </div>
+
+    
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+  </body>
+</html>
