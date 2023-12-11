@@ -13,14 +13,14 @@ if ($conexion->connect_error) {
 
 // Recibir datos del formulario de registro
 $nombre = $_POST["nombre"];
-$apellido = $_POST["apellido"]
+$apellido = $_POST["apellido"];
 $password = password_hash($_POST["password"], PASSWORD_BCRYPT);
 $email = $_POST["email"];
 $deporte_favorito = $_POST["deporte_favorito"];
 
 
 // Insertar datos en la base de datos
-$insertar = "INSERT INTO usuarios (nombre, apellido, email, password, deporte_favorito) VALUES ('$nombre_usuario', '$apellido', '$password', '$email', '$deporte_favorito')";
+$insertar = "INSERT INTO usuarios (nombre, apellido, email, password, deporte_favorito) VALUES ('$nombre', '$apellido', '$password', '$email', '$deporte_favorito')";
 if ($conexion->query($insertar) === TRUE) {
     echo "Registro exitoso.";
 } else {
